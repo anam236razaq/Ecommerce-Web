@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PitchStyle</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+</head>
+
+<body>
+    <main>
+        <!------Navigation------>
+        <section class="nav">
+            <img src="img/logo.png" class="logo">
+            <ul class="navbar">
+                <li><a href="PitchStyle.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li id="bag"><a href="cart.html"><i class="fa-thin fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+            <div class="mobile">
+                <a href="cart.html"><i class="fa-thin fa-bag-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <!---------Table------->
+
+        <section class="cart">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>SubTotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/product1.png" alt=""></td>
+                        <td>Unstitched Dark Blue Printed Lawn 3 Piece</td>
+                        <td>Rs. 3,218</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rs. 3,218</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/product2.png" alt=""></td>
+                        <td>Unstitched Teal Blue Embroidered Dobby 3 Piece</td>
+                        <td>Rs. 6,495</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rs. 6,495</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                        <td><img src="img/product3.png" alt=""></td>
+                        <td>Unstitched Grey Embroidered Chanderi 3 Piece</td>
+                        <td>Rs. 3,650</td>
+                        <td><input type="number" value="1"></td>
+                        <td>Rs. 3,650</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!---------Coupon and subtotal ---------->
+        <section class="cart-add">
+            <div class="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+            <div class="subtotal">
+                <h1>Cart Totals</h1>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>Rs. 13,393</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>Rs. 13,393</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+
+
+        <!--------------Footer----->
+        <section>
+            <div class="footer">
+                <div class="column">
+                    <h4>GET IN TOUCH</h4>
+                    <strong>ADDRESS </strong>
+                    <p>Sargodha, Pakistan</p>
+                    <strong>PHONE </strong>
+                    <p>088543200</p>
+                    <strong>EMAIL </strong>
+                    <p>pitchstyle222@gmail.com</p>
+                    <div class="Follow">
+                        <h4>Follow Us</h4>
+                        <div class="icons">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h4>CUSTOMER CARE</h4>
+                    <a href="#">Shipping & Handling</a>
+                    <a href="#">Exchange Policy</a>
+                    <a href="#">Order Cancellation Policy</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms Of Use</a>
+                    <a href="#">FAQ'S</a>
+                </div>
+                <div class="column">
+                    <h4>INFORMATION</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="pay">
+                <p>We Accept</p>
+                <img src="img/pay.png" alt="">
+            </div>
+            <div class="copyright">
+                <p>© 2023, PitchStylePk, All Rights Reserved</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
